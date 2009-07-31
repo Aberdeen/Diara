@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE simple SYSTEM "C:\Eclipse\Diara\xml\Example1.dtd">
+
+<simple>
+  <name>Bob</name>
+  <location>Hulstead</location>
+</simple>
+

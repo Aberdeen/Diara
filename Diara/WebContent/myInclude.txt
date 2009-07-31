@@ -1,0 +1,9 @@
+
+<p align = "center"><a href="Laptop?action=home" class = "button">Home</a> </p>
+<p align = "center"><a href="Laptop?action=list" class = "button">List Products</a></p> 
+<p align = "center"><a href="Laptop?action=add" class = "button">Add Products</a> </p>
+<p align = "center"><a href="Laptop?action=delete" class = "button">Delete Products</a></p>
+<link rel="stylesheet" href="style.css" type="text/css">
+
+
+

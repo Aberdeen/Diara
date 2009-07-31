@@ -1,0 +1,14 @@
+<?xml version="1.0" ?> 
+<purchaseOrder orderDate="07.23.2001" xmlns="http://www.cds-r-us.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cds-r-us.com po.xsd"> 
+ <recipient country="UK">
+  <name>Don William</name> 
+  <street>28 keith house, Don street</street> 
+  <city>Aberdeen</city> 
+  <state>Scotland</state> 
+  <postalCode>05676</postalCode> 
+  </recipient>
+<order>
+  <Accessories name="dell vostro" quantity="5" /> 
+  <Accessories name="Advent Y2k" quantity="6" /> 
+  </order>
+  </purchaseOrder>

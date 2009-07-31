@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html  xmlns = "http://www.w3.org/1999/xhtml">
+  <head>
+    <title>JavaScript Exercise Password Confirm</title>
+
+<script type="text/javascript">
+
+function check(form){
+
+
+if (form.name.value =='')
+  
+{
+      window.alert("You must enter your name");
+      form.name.focus();
+      return false;
+    }
+
+if (form.password1.value =='')
+   {
+      window.alert("You must enter your password");
+      form.name.focus();
+      return false;
+    }
+
+if (form.password2.value =='')
+   {
+      window.alert("comfirm your password");
+      form.name.focus();
+      return false;
+    }
+
+if (form.password1.value != form.password2.value)
+   {
+      window.alert("your two passwords must match");
+      form.name.focus();
+      return false;
+      return true;
+    }
+
+
+}
+</script>
+<link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <form onsubmit = "return check(this);" action="Staff.jsp">
+<table  border="0">
+      <tr><td>Username: </td> <td><input type="text" name="name" id="name" size="30" /></td> </tr>
+      <tr><td>Password: </td> <td><input type="password" name="password1" id="password1" size="30" /></td> </tr>
+      <tr><td>Confirm password: </td><td><input type="password" name="password2" id="password2" size="30" /></td> </tr>
+</table>
+      <p>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Clear" />
+      </p>
+    </form>
+  </body>
+</html>

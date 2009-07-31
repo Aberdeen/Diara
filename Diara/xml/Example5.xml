@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE simple SYSTEM "C:\Eclipse\Diara\xml\first.jsp">
+<CustomerOrder>
+  <Customer>
+    <FirstName>""</FirstName>
+    <LastName>""</LastName>
+  </Customer>
+  <Accessories>
+    <Accessory>
+      <ProductCode>""</ProductCode>
+      <Description>""</Description>
+      <Quantity>""</Quantity>
+    </Accessory>
+  </Accessories>
+</CustomerOrder>

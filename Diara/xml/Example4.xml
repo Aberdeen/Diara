@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<CustomerOrder>
+  <Customer>
+    <FirstName>Bob</FirstName>
+    <LastName>Hustead</LastName>
+    <CustID>abc.123</CustID>
+  </Customer>
+  <OrderItems>
+    <OrderItem>
+      <Quantity>1</Quantity>
+        <ProductCode>48.GH605A</ProductCode>
+      <Description>Pet Rock</Description>
+      <Price>12.99</Price>
+    </OrderItem>
+    <OrderItem>
+      <Quantity>12</Quantity>
+        <ProductCode>534.abcD3</ProductCode>
+      <Description>Bazooka Bubble Gum</Description>
+      <Price>0.33</Price>
+    </OrderItem>
+    <OrderItem>
+      <Quantity>2</Quantity>
+        <ProductCode>46.3RGB</ProductCode>
+      <Description>Flouresent Orange Squirt Gun</Description>
+      <Price>2.50</Price>
+    </OrderItem>
+   </OrderItems>
+</CustomerOrder>

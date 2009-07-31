@@ -1,0 +1,3 @@
+<!ELEMENT simple ( name, location )>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location (#PCDATA)>

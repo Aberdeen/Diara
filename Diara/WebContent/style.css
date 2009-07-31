@@ -1,0 +1,172 @@
+BODY
+{
+	font-family: Ariel, Helvetica;
+	
+	background-color: #A9A9A9;
+}
+
+div.header{font-family: verdana, arial, sans-serif;
+	   
+	   padding    : 0px;
+	   text-align : center;
+	   border-style: outset;
+	   margin-left:30px;
+	   margin-right:30px;
+	   height : 80px;		
+		}
+		
+.button { border: 2px inset #000;	
+	width:200px;
+	padding: 3px 15px;
+	color: #A9A9A9; 	                   
+	background-color: #5f9ea0; 	      
+	font-family: Arial,sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+     font-style:italic;
+	text-align: left;
+	text-decoration:none;
+}
+
+div.left{position : absolute;
+	 background-color: #484848;
+	 color		:#680000;
+	 width         : 150px;
+         top           : 95px;
+	 height        : 400px;
+	 left          : 40px;
+	margin-bottom  : 0px;
+
+	}
+		
+table
+{
+	table-border-color-light: rgb(102,102,102);
+	table-border-color-dark: rgb(51,51,51);
+}
+a:link
+{
+	color: #003399; 
+	font-weight: bold;
+}
+a:visited
+{
+	color: :#A9A9A9 
+	font-weight: bold;
+} 
+a:active 
+{
+	color: #CCCCCC;
+}
+h1
+{
+	font-family: Ariel, Helvetica;
+	color: rgb(0,102,153);
+	text-align: center;
+}
+	
+h2
+{
+	font-family: Ariel, Helvetica;
+	color: #669966;
+}
+h3
+{
+	font-family: Helvetica;
+	color: #669966;
+}
+h4
+{
+	font-family: Helvetica;
+	color: rgb(0,102,153);
+}
+h5
+{
+	font-family: Helvetica;
+	color: rgb(0,102,204);
+}
+h6
+{
+	font-family: Helvetica;
+	color: rgb(0,102,255);
+} 
+
+p.navbar{
+	text-align: center;
+	font-family: Ariel, Helvetica;
+	font-weight: bold;
+	background-color:  #FF6633;
+	width: 800px;
+	border-style: solid;
+	color: #CC6633;
+}
+
+.listing{
+	text-align: left;
+	font-family: Ariel, Helvetica;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #CC6633;
+	color: #CC6633;
+	width: 800px;
+	padding: 3px;
+}
+
+.center {
+	text-align: center;
+}
+
+.solid {
+	border-style: solid;
+}
+
+.bold
+{
+	font-family: Helvetica;
+	color: rgb(0,102,153);
+	}
+
+#banner {
+	font-family: Ariel, Helvetica;
+	color: #CC6633;
+	text-align: center;
+	border-style: solid;
+	background-color: #FF6633;
+        width: 800px;	
+}
+
+#frame {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	
+}
+
+#contentleft {
+	width:250px;
+	padding:3px;
+	margin-right: 8px;
+	float:left;
+	color: #CC6633;
+	border-style: solid;
+	
+	}
+	
+#contentcenter {
+	width:250px;
+	padding:3px;
+	float:left;
+	color: #CC6633;
+	border-style: solid;
+	
+	}
+
+#contentright {
+	width:250px;
+	padding:3px;
+	float:right;
+	color: #CC6633;
+	border-style: solid;
+	
+	}
